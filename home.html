@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Safaris | Luxury Tailor-Made Journeys</title>
+    <meta name="description" content="Award-winning luxury safari and travel experts. Timeless holidays unlocked across Africa and the Indian Ocean.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="csss.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <img src="GLOBETREK LOGO.jpeg" alt="Globetrek Logo">
+            <div class="logo-clock" id="logoClock">--:--:--</div>
+        </div>
+      
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#europe">Europe</a>
+            <a href="#europe">Middle-East</a>
+            <a href="#europe">Asia</a>
+            <a href="#europe">Destination</a>
+            <a href="#services">About Us</a>
+        </nav>
+      
+        <div class="actions">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search destination..." />
+                <button id="searchBtn">🔍</button>
+            </div>
+            <button class="subscribe" id="openJoin">Join Us</button>
+        </div>
+    </header>
+
+    <header class="hero" id="home">
+        <div class="hero-video-wrapper">
+            <video autoplay muted loop playsinline>
+                <source src="Europe 2024 iPhone 15 Pro _ Cinematic Travel Video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <svg class="plane-icon" viewBox="0 0 24 24">
+            <path d="M21,16V14L13,9V3.5A1.5,1.5 0 0,0 11.5,2A1.5,1.5 0 0,0 10,3.5V9L2,14V16L10,13.5V19L8,20.5V22L11.5,21L15,22V20.5L13,19V13.5L21,16Z" />
+        </svg>
+
+        <div class="hero-content">
+            <span class="hero-top-label">Expertise without expense</span>
+            <h1 class="hero-title">Timeless Holidays.<br>Unlocked.</h1>
+            <div class="hero-buttons">
+                <a href="#europe" class="btn btn-primary">Be Inspired</a>
+                <a href="#contact" class="btn btn-outline" style="margin-left: 1rem;">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="stats-section" id="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-circle">
+                    <svg class="stat-icon" viewBox="0 0 24 24">
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M11,7H13V15H11V7M11,17H13V19H11V17Z" />
+                    </svg>
+                    <div class="stat-number">
+                        <span class="counter" data-target="15000">0</span>+
+                    </div>
+                    <p class="stat-label">Happy Travelers</p>
+                </div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-circle">
+                    <svg class="stat-icon" viewBox="0 0 24 24">
+                        <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" />
+                    </svg>
+                    <div class="stat-number">
+                        <span class="counter" data-target="98">0</span>%
+                    </div>
+                    <p class="stat-label">Satisfaction Rate</p>
+                </div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-circle">
+                    <svg class="stat-icon" viewBox="0 0 24 24">
+                        <path d="M12,4C14.2,4 16.2,4.9 17.65,6.35L12,12L7.5,7.5C7.5,7.5 4,11 4,11C4,11 7.5,14.5 7.5,14.5L12,10L16.5,14.5C16.5,14.5 20,11 20,11C20,11 16.5,7.5 16.5,7.5L12,12L12,4Z" />
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20Z" opacity="0.3"/>
+                        <path d="M17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12Z" transform="scale(0.5) translate(12,12)"/>
+                    </svg>
+                    <div class="stat-number">
+                        <span class="counter" data-target="85">0</span>%
+                    </div>
+                    <p class="stat-label">Repeat Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="europe-section reveal" id="europe">
+        <div class="europe">
+            <h2 class="dest-section-title">Our Worlds</h2>
+            <p class="dest-subtitle">Tailor-made travel taken further</p>
+        </div>
+
+        <div class="slider-viewport" id="destContainer">
+            <button class="slider-btn prev" id="destPrev">&#10094;</button>
+            <button class="slider-btn next" id="destNext">&#10095;</button>
+
+            <div class="slider-track" id="destTrack">
+                <div class="dest-card card">
+                    <img src="ME1.jpg" alt="Middle-east" class="dest-img">
+                    <div class="dest-overlay">
+                        <h3 class="dest-name">Middle-East</h3>
+                        <div class="dest-count">12 Countries</div>
+                    </div>
+                </div>
+
+                <div class="dest-card card">
+                    <img src="A2.jpg" alt="Asia" class="dest-img">
+                    <div class="dest-overlay">
+                        <h3 class="dest-name">Asia</h3>
+                        <div class="dest-count">8 Countries</div>
+                    </div>
+                </div>
+
+                <div class="dest-card card">
+                    <img src="E1" alt="Europe" class="dest-img">
+                    <div class="dest-overlay">
+                        <h3 class="dest-name">Europe</h3>
+                        <div class="dest-count">Luxury Trains</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="why-us reveal">
+        <h2 class="section-title">Timeless Cities, Unforgettable Journeys</h2>
+        <p class="section-subtitle">Where the World’s Greatest Cities Come Alive</p>
+
+        <div class="tabs-container">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="tab-1">Tokyo</button>
+                <button class="tab-btn" data-tab="tab-2">London</button>
+                <button class="tab-btn" data-tab="tab-3">Dubai</button>
+                <button class="tab-btn" data-tab="tab-4">Paris</button>
+            </div>
+
+            <div class="tab-content active" id="tab-1">
+                <div class="tab-text">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is a city of contrasts, where ancient temples and peaceful gardens stand beside towering skyscrapers and advanced technology. From authentic street food to world-class dining, and from historic districts to vibrant nightlife, Tokyo offers a truly unique urban experience.</p>
+                    <a href="#contact" class="btn btn-navy">こんにちは</a>
+                </div>
+                <div class="tab-image">
+                    <img src="Tokyo.jpg" alt="Tokyo">
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-2">
+                <div class="tab-text">
+                    <h3>London</h3>
+                    <p>London is a city shaped by centuries of history and modern innovation. Iconic landmarks, royal heritage, diverse cultures, and creative industries come together to create a destination that is both classic and constantly evolving.</p>
+                    <a href="#contact" class="btn btn-navy">Hello</a>
+                </div>
+                <div class="tab-image">
+                    <img src="london.jpg" alt="London">
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-3">
+                <div class="tab-text">
+                    <h3>Dubai</h3>
+                    <p>Rising from golden sands, Dubai is a symbol of ambition and modern luxury. Known for its futuristic skyline, exclusive resorts, and unforgettable desert experiences, the city delivers a perfect balance of adventure, comfort, and innovation.</p>
+                    <a href="#contact" class="btn btn-navy">مرحبًا</a>
+                </div>
+                <div class="tab-image">
+                    <img src="dubai.jpg" alt="Dubai">
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-4">
+                <div class="tab-text">
+                    <h3>Paris</h3>
+                    <p>Paris enchants visitors with its romantic atmosphere, artistic heritage, and timeless elegance. From iconic monuments and charming cafés to fashion and fine cuisine, the city promises unforgettable moments at every turn.</p>
+                    <a href="#contact" class="btn btn-navy">Bonjour</a>
+                </div>
+                <div class="tab-image">
+                    <img src="paris.jpg" alt="Paris">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inspiration" class="inspiration reveal">
+        <h2 class="section-title">Get Inspired</h2>
+        <p class="section-subtitle">Curated experiences from our travel specialists</p>
+
+        <div class="slider-container">
+            <div class="slide-card card">
+                <div class="slide-img-wrapper">
+                    <span class="slide-tag">HONEYMOON</span>
+                    <img src="krabi.jpg" alt="Thailand Krabi">
+                </div>
+                <div class="slide-content">
+                    <h4 class="slide-title">THAILAND</h4>
+                    <div class="slide-location">Krabi</div>
+                </div>
+            </div>
+
+            <div class="slide-card card">
+                <div class="slide-img-wrapper">
+                    <span class="slide-tag">FOOD</span>
+                    <img src="penang.jpg" alt="Malaysia Penang">
+                </div>
+                <div class="slide-content">
+                    <h4 class="slide-title">MALAYSIA</h4>
+                    <div class="slide-location">Pulau Pinang</div>
+                </div>
+            </div>
+
+            <div class="slide-card card">
+                <div class="slide-img-wrapper">
+                    <span class="slide-tag">SHOPPING</span>
+                    <img src="shibuya.jpg" alt="Japan Shibuya">
+                </div>
+                <div class="slide-content">
+                    <h4 class="slide-title">JAPAN</h4>
+                    <div class="slide-location">Shibuya</div>
+                </div>
+            </div>
+
+            <div class="slide-card card">
+                <div class="slide-img-wrapper">
+                    <span class="slide-tag">HISTORICAL</span>
+                    <img src="barcelona.jpg" alt="Spain Barcelona">
+                </div>
+                <div class="slide-content">
+                    <h4 class="slide-title">SPAIN</h4>
+                    <div class="slide-location">Barcelona</div>
+                </div>
+            </div>
+
+            <div class="slide-card card">
+                <div class="slide-img-wrapper">
+                    <span class="slide-tag">NATURE</span>
+                    <img src="jordan.jpg" alt="Jordan Dead Sea">
+                </div>
+                <div class="slide-content">
+                    <h4 class="slide-title">JORDAN</h4>
+                    <div class="slide-location">Dead Sea</div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align:center; margin-top:2rem;">
+            <button id="loadMoreBtn" class="btn btn-primary" style="display:none;">Load More</button>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials reveal">
+        <div class="testimonial-slider">
+            <div class="testimonial-item active" data-index="0">
+                <div class="stars">★★★★★</div>
+                <p class="quote">"I couldn't recommend Lumina more highly. We had the most amazing holiday - every detail had been thought about and they were always on hand to answer questions."</p>
+                <p class="author">Camilla, UK</p>
+            </div>
+            <div class="testimonial-item" data-index="1">
+                <div class="stars">★★★★★</div>
+                <p class="quote">"Blown away by our Tanzania safari. It totally exceeded my expectations and was completely hassle free. Our guide was absolutely amazing."</p>
+                <p class="author">Jeremy, USA</p>
+            </div>
+            <div class="testimonial-item" data-index="2">
+                <div class="stars">★★★★★</div>
+                <p class="quote">"Fantastic customer service. Super friendly team and no question unanswered. Really appreciated how they co-ordinated my family throughout the planning."</p>
+                <p class="author">Jamie, Australia</p>
+            </div>
+        </div>
+        <div class="testimonial-controls">
+            <div class="dot active" onclick="setTestimonial(0)"></div>
+            <div class="dot" onclick="setTestimonial(1)"></div>
+            <div class="dot" onclick="setTestimonial(2)"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="cta-section reveal">
+        <div class="cta-content">
+            <h2 class="section-title" style="color:white;">Start planning your journey</h2>
+            <p>Speak to one of our travel specialists today.</p>
+            <form class="enquiry-form" onsubmit="handleEnquiry(event)">
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="Email Address" required>
+                    <input type="text" class="form-input" placeholder="Name" required>
+                    <button type="submit" class="btn btn-primary">Enquire Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="nav-logo" style="margin-bottom: 1rem;">LUMINA</div>
+                <p style="color: #aaa; font-size: 0.9rem;">Crafting unforgettable memories in the world's most wild places.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Safaris</a></li>
+                    <li><a href="#">Beach & Islands</a></li>
+                    <li><a href="#">Luxury Trains</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Why Travel With Us</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p style="color:#aaa; font-size:0.9rem; margin-bottom:1rem;">Join the club for latest offers.</p>
+                <div class="form-group" style="margin-top: 0; gap: 0.5rem;">
+                    <input type="email" placeholder="Your email" class="form-input" style="background: rgba(255,255,255,0.1); border: 1px solid #444; color: white;">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>&copy; 2025 Lumina Safaris. All rights reserved.</div>
+            <div style="display: flex; gap: 1rem;">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast">
+        Thank you! We have received your enquiry.
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // --- 1. SEARCH MAP LOGIC ---
+            const destinationPages = {
+                tokyo: "tokyo.html", shanghai: "shanghai.html", bangkok: "bangkok.html",
+                china: "china.html", vietnam: "vietnam.html", indonesia: "indonesia.html",
+                thailand: "thailand.html", london: "london.html", paris: "paris.html"
+            };
+
+            const searchInput = document.getElementById("searchInput");
+            const searchBtn = document.getElementById("searchBtn");
+
+            function redirectToDestination() {
+                const query = searchInput.value.toLowerCase().trim();
+                if (destinationPages[query]) {
+                    window.location.href = destinationPages[query];
+                } else {
+                    alert("Destination not found.");
+                }
+            }
+
+            if(searchBtn) searchBtn.addEventListener("click", redirectToDestination);
+            if(searchInput) {
+                searchInput.addEventListener("keydown", e => {
+                    if (e.key === "Enter") redirectToDestination();
+                });
+            }
+
+            // --- 2. NAVBAR CLOCK (MALAYSIA TIME) ---
+            function updateClock() {
+                const now = new Date();
+                const dateOptions = { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'Asia/Kuala_Lumpur' };
+                const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false, timeZone: 'Asia/Kuala_Lumpur' };
+                
+                const dateString = now.toLocaleDateString('en-US', dateOptions);
+                const timeString = now.toLocaleTimeString('en-US', timeOptions);
+                
+                const clockEl = document.getElementById('logoClock');
+                if(clockEl) {
+                    clockEl.textContent = `${dateString} | ${timeString}`;
+                }
+            }
+            setInterval(updateClock, 1000);
+            updateClock();
+
+            // --- 3. MODAL LOGIC ---
+            const openBtn = document.getElementById("openJoin");
+            const modal = document.getElementById("joinModal");
+            const closeBtn = document.getElementById("closeJoin");
+
+            if(openBtn && modal) {
+                openBtn.onclick = () => modal.style.display = "flex";
+                closeBtn.onclick = () => modal.style.display = "none";
+                window.onclick = (e) => {
+                    if (e.target === modal) modal.style.display = "none";
+                };
+            }
+
+            window.goNext = function() {
+                const email = document.getElementById("email").value;
+                const agree = document.getElementById("agree").checked;
+
+                if (!email) return alert("Please enter your email");
+                if (!agree) return alert("Please agree to the terms");
+
+                document.getElementById("step1").classList.remove("active");
+                document.getElementById("step2").classList.add("active");
+            }
+
+            // --- 4. SCROLL FADE-IN ANIMATION (New) ---
+            const cards = document.querySelectorAll('.card, .reveal');
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting){
+                        entry.target.classList.add('active'); // Matches CSS .reveal.active
+                        entry.target.classList.add('visible'); // Matches CSS .card.visible
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            cards.forEach(card => observer.observe(card));
+
+            // --- 5. LOAD MORE LOGIC (Optional if needed later) ---
+            const loadMoreBtn = document.getElementById("loadMoreBtn");
+            const hiddenCountries = document.querySelectorAll(".hidden-country");
+            let loadIndex = 0;
+            const itemsToShow = 4;
+
+            if (loadMoreBtn && hiddenCountries.length > 0) {
+                loadMoreBtn.style.display = "inline-block";
+                loadMoreBtn.addEventListener("click", () => {
+                    for (let i = loadIndex; i < loadIndex + itemsToShow; i++) {
+                        if (hiddenCountries[i]) hiddenCountries[i].style.display = "block";
+                    }
+                    loadIndex += itemsToShow;
+                    if (loadIndex >= hiddenCountries.length) loadMoreBtn.style.display = "none";
+                });
+            }
+
+            // --- 6. EXISTING TABS LOGIC ---
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    tabContents.forEach(c => c.classList.remove('active'));
+
+                    btn.classList.add('active');
+                    const targetId = btn.getAttribute('data-tab');
+                    document.getElementById(targetId).classList.add('active');
+                });
+            });
+
+            // --- 7. TESTIMONIAL SLIDER ---
+            let currentTestimonial = 0;
+            const testimonials = document.querySelectorAll('.testimonial-item');
+            const dots = document.querySelectorAll('.dot');
+
+            if(testimonials.length > 0) {
+                function showTestimonial(index) {
+                    testimonials.forEach(t => t.classList.remove('active'));
+                    dots.forEach(d => d.classList.remove('active'));
+                    
+                    testimonials[index].classList.add('active');
+                    if(dots[index]) dots[index].classList.add('active');
+                    currentTestimonial = index;
+                }
+
+                window.setTestimonial = function(index) {
+                    showTestimonial(index);
+                }
+
+                setInterval(() => {
+                    let next = (currentTestimonial + 1) % testimonials.length;
+                    showTestimonial(next);
+                }, 6000);
+            }
+
+            // --- 8. STATS COUNTER ANIMATION ---
+            const counters = document.querySelectorAll('.counter');
+            const statsSection = document.querySelector('.stats-section');
+            let hasCounted = false;
+
+            const runCounterAnimation = () => {
+                if (hasCounted) return;
+                hasCounted = true;
+
+                counters.forEach(counter => {
+                    const updateCount = () => {
+                        const target = +counter.getAttribute('data-target');
+                        const count = +counter.innerText;
+                        const increment = target / 100; 
+
+                        if (count < target) {
+                            counter.innerText = Math.ceil(count + increment);
+                            setTimeout(updateCount, 20);
+                        } else {
+                            counter.innerText = target;
+                        }
+                    };
+                    updateCount();
+                });
+            };
+
+            const statsObserver = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    runCounterAnimation();
+                    statsObserver.unobserve(entries[0].target);
+                }
+            }, { threshold: 0.1 }); 
+
+            if (statsSection) statsObserver.observe(statsSection);
+
+            // --- 9. DESTINATION SLIDER ---
+            const track = document.getElementById('destTrack');
+            const container = document.getElementById('destContainer');
+            const prevBtn = document.getElementById('destPrev');
+            const nextBtn = document.getElementById('destNext');
+            const sliderCards = document.querySelectorAll('.dest-card');
+
+            if (track && sliderCards.length > 0) {
+                let currentIndex = 0;
+                let autoSlideTimer;
+                const slideSpeed = 3500; 
+
+                function updatePosition(animate = true) {
+                    const cardWidth = sliderCards[0].offsetWidth; 
+                    const moveAmount = cardWidth * currentIndex;
+                    if (animate) {
+                        track.style.transition = 'transform 0.6s ease-in-out';
+                    } else {
+                        track.style.transition = 'none'; 
+                    }
+                    track.style.transform = `translateX(-${moveAmount}px)`;
+                }
+
+                function slideNext() {
+                    if (currentIndex < sliderCards.length - 1) currentIndex++;
+                    else currentIndex = 0;
+                    updatePosition(true);
+                }
+
+                function slidePrev() {
+                    if (currentIndex > 0) currentIndex--;
+                    else currentIndex = sliderCards.length - 1;
+                    updatePosition(true);
+                }
+
+                function startAutoSlide() {
+                    if(autoSlideTimer) clearInterval(autoSlideTimer);
+                    autoSlideTimer = setInterval(slideNext, slideSpeed);
+                }
+
+                function stopAutoSlide() { clearInterval(autoSlideTimer); }
+
+                if(nextBtn) nextBtn.addEventListener('click', () => { slideNext(); startAutoSlide(); });
+                if(prevBtn) prevBtn.addEventListener('click', () => { slidePrev(); startAutoSlide(); });
+
+                container.addEventListener('mouseenter', stopAutoSlide);
+                container.addEventListener('mouseleave', startAutoSlide);
+                window.addEventListener('resize', () => updatePosition(false));
+
+                updatePosition(false); 
+                startAutoSlide(); 
+            }
+        });
+
+        function handleEnquiry(e) {
+            e.preventDefault();
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            e.target.reset();
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+    </script>
+</body>
+</html>
